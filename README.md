@@ -7,3 +7,4 @@ References:
 [SiFive FE310-G000 Datasheet](https://sifive.cdn.prismic.io/sifive%2Ffeb6f967-ff96-418f-9af4-a7f3b7fd1dfc_fe310-g000-ds.pdf)  
 [SiFive HiFive1 Getting Started Guide](https://sifive.cdn.prismic.io/sifive%2F9c57065b-6d28-465b-b67d-f416894123a9_hifive1-getting-started-v1.0.2.pdf)  
 [SiFive FE310-G000 Manual](https://sifive.cdn.prismic.io/sifive%2F500a69f8-af3a-4fd9-927f-10ca77077532_fe310-g000.pdf)  
+[SiFive E31 Manual](https://sifive.cdn.prismic.io/sifive%2F2df24239-b9bf-42cd-b287-2d57030e91fa_e31-core-complex-manual-v19.05.pdf)
