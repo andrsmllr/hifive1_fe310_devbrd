@@ -1,0 +1,6 @@
+[submodule "freedom-e-sdk"]
+	path = freedom-e-sdk
+	url = https://github.com/sifive/freedom-e-sdk
+[submodule "freedom"]
+	path = freedom
+	url = https://github.com/sifive/freedom
