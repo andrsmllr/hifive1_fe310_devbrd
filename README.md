@@ -49,9 +49,9 @@ $> ls /dev/ttyUSB*
 ```
 Use your favorite terminal emulator to connect to the serial device, 115200 Baud, 8 data bits, 1 stop bit, 0 parity bits.  
 
-If building and uploading the hello example was successful you should see the classic "Hello World!" message after uploading the program file as explained in the [Getting Started section](#getting-started) above. Each time you reset the HiFive board the "Hello World!" message should be printed again.  
+If building and uploading the hello example was successful you should see the classic "Hello World!" message after uploading the program file as explained in the [Getting Started section](#getting-started) above. Every time you reset the HiFive board (red button) the "Hello World!" message should be printed again.  
 
-References:  
+## References:  
 [HiFive1 Product Page](https://www.sifive.com/boards/hifive1)  
 [HiFive1 Schematic](https://sifive.cdn.prismic.io/sifive%2F080cdef9-4631-4c9b-b8f5-7937fbdec8a4_hifive1-a01-schematics.pdf)  
 [SiFive FE310-G000 Datasheet](https://sifive.cdn.prismic.io/sifive%2Ffeb6f967-ff96-418f-9af4-a7f3b7fd1dfc_fe310-g000-ds.pdf)  
