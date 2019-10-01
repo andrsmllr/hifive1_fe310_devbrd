@@ -4,3 +4,6 @@
 [submodule "freedom"]
 	path = freedom
 	url = https://github.com/sifive/freedom
+[submodule "freedom-e-sdk-docker"]
+	path = freedom-e-sdk-docker
+	url = https://github.com/andrsmllr/freedom-e-sdk-docker
