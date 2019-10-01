@@ -3,9 +3,18 @@ Play and learn with the SiFive HiFive1 board featuring a FE310-G000 SoC integrat
 This guide is for the HiFive1 revision A board, not the revision B with onboard Segger J-Link and ESP32 modules.
 
 ## Getting Started
-First and foremost the Freedom-E-SDK (or just SDK in short) is required. The SDK contains the complete toolchain required to build a program binary for the Freedom-E platform (which includes the HiFive1 dev board).  
+Begin by clonig this repository to your machine
+```
+$> git clone https://github.com/andrsmllr/hifive1_fe310_devbrd
+```
 
-You can install the SDK on your system by using the install script  
+First and foremost the Freedom-E-SDK (or just SDK in short) is required. The SDK contains the complete toolchain required to build a program binary for the Freedom-E platform (which includes the HiFive1 dev board). The official SDK is included in this repository using git submodules (folders ./ freedom-e-sdk and ./freedom).  
+To check out the submodules do
+```
+$> git submodule update --init --recursive
+```
+
+You can install the SDK on your system from the submodules by using the install script  
 ```
 $> ./install_sifive_toolchain.sh
 ```  
@@ -20,11 +29,11 @@ $> cd freedom-e-sdk
 $> make upload PROGRAM=hello BOARD=sifive-hifive1
 ```
 
-Alternatively you can pull the docker container from dockerhub  
+Alternatively you can pull my docker container from dockerhub (the image is quite big at the moment and could probably be optimzed quite a bit)  
 ```
 $> docker pull andrsmllr/freedom-e-sdk:latest
 ```
-The recommended way to use the docker container is by invoking the run scripts in ./freedom-e-sdk-docker.  
+The docker container comes with the SDK up and ready for action. The recommended way to use the docker container is by invoking the run scripts in ./freedom-e-sdk-docker.  
 To test that the basics work, the hello example can be build by  
 ```
 $> ./freedom-e-sdk-docker/run_exec.sh software PROGRAM=hello BOARD=sifive-hifive1
